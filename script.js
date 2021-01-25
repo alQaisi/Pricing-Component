@@ -26,7 +26,6 @@ const updateCost=(value)=>{
 };
 slider.addEventListener("change",(evt)=>{
     value=evt.target.value;
-    console.log(value);
     pageviews.innerText=prices[value/20][0];
     pageviews2.innerText=prices[value/20][0];
     updateCost(value);

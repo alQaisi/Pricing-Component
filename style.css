@@ -64,7 +64,7 @@ h1 img{
     justify-content: space-between;
     align-items: center;
 }
-.first-item h1,h4,.slider-container h4{
+.first-item h1,h2,.slider-container h2{
     padding: 0;
     margin:0;
 }
@@ -82,7 +82,8 @@ h1 img{
     color: hsl(225, 20%, 60%);
     font-weight: 600;
 }
-.first-item h4,.slider-container h4{
+.first-item h2,.slider-container h2{
+    font-size: 1rem;
     letter-spacing: 3px;
     color: hsl(225, 20%, 60%);
     font-weight: 600;
@@ -101,7 +102,7 @@ h1 img{
     height:9px;
     background:hsl(174, 77%, 80%);
 }
-.slider-container h4{
+.slider-container h2{
     display: none;
     bottom:45px;
     width: 100%;
@@ -136,12 +137,12 @@ h1 img{
     flex-direction: row;
     justify-content: flex-end;
 }
-.toggle-switch h4{
+.toggle-switch h2{
     font-size: 15px;
     font-weight: 600;
     color: hsl(225, 20%, 60%);
 }
-.toggle-switch h4:nth-of-type(2) span{
+.toggle-switch h2:nth-of-type(2) span{
     margin:0 10px;
     font-size:12px;
     color: hsl(15, 100%, 70%);
@@ -249,7 +250,7 @@ button:hover{
     .first-item h1{
         font-size:2.25rem;
     }
-    .first-item h4{
+    .first-item h2{
         display: none;
     }
     .card{
@@ -260,13 +261,13 @@ button:hover{
         margin: 25px 0 30px 0;
         justify-content: center;
     }
-    .toggle-switch h4:nth-of-type(2) span{
+    .toggle-switch h2:nth-of-type(2) span{
         margin:0 0 0 7px;
     }
     .switch{
         margin:0 8px
     }
-    .slider-container h4{
+    .slider-container h2{
         display: block;
     }
     .slider-container{
@@ -301,7 +302,7 @@ button:hover{
         justify-content: center;
         margin:27px auto 7px auto;
     }
-    .toggle-switch h4:nth-of-type(2){
+    .toggle-switch h2:nth-of-type(2){
         margin: 15px 0;
     }
     .slider-container{
